@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family:  'helvetica neue';
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.parent{ 
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card{
+    width: 200px;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+    background-color: #dfdbdb;
+    border-radius: 10px;
+}
+.card img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.card h3{
+    margin: 10px 0;
+}
+.card p{
+    margin: 20px 0;
+}
+.card button {
+    padding: 8px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: blue;
+}
