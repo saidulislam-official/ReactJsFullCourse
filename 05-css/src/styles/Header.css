@@ -1,0 +1,8 @@
+.header{
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 24px;
+  padding: 16px 24px;
+}
